@@ -1,0 +1,20 @@
+{
+    "name": "archana/core",
+    "description": "none",
+    "authors": [
+        {
+            "name": "Rankaj",
+            "email": "rankaj30mca@gmail.com"
+        }
+    ],
+    "require": {
+        "imagine/imagine": "^1.2",
+        "nesbot/carbon": "^2.27"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"
+        },
+        "files": ["vendor/UserService/UserService.php"]
+    }
+}
